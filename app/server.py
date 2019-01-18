@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://www.dropbox.com/s/quv8q35w6fgwq61/face_model_v1.pth?dl=1'
+model_file_url = 'https://www.dropbox.com/s/l7qoi4yiuy871n3/model.pth?dl=1'
 model_file_name = 'model'
 
 classes = ['kim_kardashian','marie_kondo','trump','alexandria_ocasio-cortez', 'beyonce']
