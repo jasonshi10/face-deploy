@@ -8,10 +8,10 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://www.dropbox.com/s/jczjqjmhsjmwxwu/model.pth?dl=1'
+model_file_url = 'https://www.dropbox.com/s/ogd2hm8aqu5q3va/model.pth?dl=1'
 model_file_name = 'model'
 
-classes = ['alexandria_ocasio-cortez','beyonce','brad_pitt','david_beckham','dwayne_johnson','kim_kardashian','marie_kondo','trump']
+classes = ['alexandria_ocasio-cortez','beyonce','brad_pitt','david_beckham','dwayne_johnson','kim_kardashian','kylie_jenner','marie_kondo','ryan_gosling','trump']
 
 path = Path(__file__).parent
 
